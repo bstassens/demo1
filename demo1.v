@@ -1,4 +1,5 @@
 //my first project
+//author: me
 
 module demo1(
   input a,
