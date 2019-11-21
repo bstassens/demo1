@@ -3,7 +3,7 @@
 
 `timescale 1ns/100ps
 
-module demo1(
+module dff(
   input wire clk, d,
   output reg q
   
@@ -13,5 +13,14 @@ module demo1(
     begin
       q <= d;
     end
+  
+endmodule
+
+module dff_top(
+  input clk,
+  output q
+);
+  
+  dff uut(clk, 0, q);
   
 endmodule
