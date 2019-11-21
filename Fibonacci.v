@@ -13,6 +13,7 @@ module fib(
   
   initial
     begin
+      y = 'b00000000;
       tmp = 'b00000000;
     end
   
